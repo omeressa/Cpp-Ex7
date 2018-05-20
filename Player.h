@@ -5,8 +5,7 @@
 #include <exception>
 
 
-class Player
-{
+class Player {
 
 public:
     char myChar;
@@ -20,6 +19,8 @@ public:
             throw IllegalCharException(c);
         }
     }
+    
+    
     void setChar(char c) {
         myChar = c;
     }
